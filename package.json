@@ -1,0 +1,17 @@
+{
+  "name": "classlion-lecture-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm ./src"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "puppeteer": "^5.5.0",
+    "url": "^0.11.0"
+  }
+}
